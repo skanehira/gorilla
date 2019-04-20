@@ -3,14 +3,19 @@
   "version": "1.0.0",
   "description": "ゴリラの技術ブログ",
   "main": "index.js",
-  "repository": "https://github.com/skanehira/gorilla.git",
+  "repository": "git@github.com:skanehira/gorilla.git",
   "author": "skanehira <sho19921005@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "markdown-it-abbr": "^1.0.4",
+    "markdown-it-fontawesome": "^0.3.0",
+    "markdown-it-footnote": "^3.0.1",
+    "markdown-it-mark": "^2.0.0",
+    "markdown-it-task-lists": "^2.1.1",
     "vuepress": "^0.14.11"
   },
   "scripts": {
-    "src:dev": "vuepress dev src",
-    "src:build": "vuepress build src"
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
   }
 }
