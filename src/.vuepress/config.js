@@ -11,7 +11,7 @@ module.exports = {
       crossorigin: 'anonymous'
     }]
   ],
-  title: "ゴリラのつまみ食い",
+  title: "ゴリラの技術ブログ",
   description: " ",// 説明非表示
   dest: 'docs/',
   themeConfig: {
