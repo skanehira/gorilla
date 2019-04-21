@@ -27,7 +27,7 @@ module.exports = {
       }
     ],
     sidebar: 'auto',
-    sidebarDepth: 2,
+    sidebarDepth: 6,
     displayAllHeaders: true
   },
   markdown: {
