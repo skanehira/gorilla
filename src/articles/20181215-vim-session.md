@@ -16,7 +16,7 @@ https://github.com/skanehira/vsession
 `~/.vim/sessions/`配下にセッションファイルを保存します。
 ディレクトリがなければ作るようにしています。
 
-```vimscript
+```vim
 " session path
 let s:session_path = expand('~/.vim/sessions')
 
@@ -29,7 +29,7 @@ endif
 `:SaveSession test1.vim`という感じで、セッションファイル名を指定して保存します。
 同じファイル名を指定すると上書きされるのでご注意。
 
-```vimscript
+```vim
 " save session
 command! -nargs=1 SaveSession call s:saveSession(<f-args>)
 function! s:saveSession(file)
@@ -40,7 +40,7 @@ endfunction
 ## セッションの復元
 `:LoadSession ~/.vim/sessions/test1.vim`という感じで、セッションファイルのパスを指定して読み込みます。
 
-```vimscript
+```vim
 " load session
 command! -nargs=1 LoadSession call s:loadSession(<f-args>)
 function! s:loadSession(file)
@@ -50,7 +50,7 @@ endfunction
 
 fzf.vim版はこちらです。
 
-```vimscript
+```vim
 command! FloadSession call fzf#run({
 \  'source': split(glob(s:session_path . "/*"), "\n"),
 \  'sink':    function('s:loadSession'),
@@ -61,7 +61,7 @@ command! FloadSession call fzf#run({
 ## セッションの削除
 `:DeleteSession ~/.vim/sessions/test1.vim`という感じで、削除します。
 
-```vimscript
+```vim
 " delete session
 command! -nargs=1 DeleteSession call s:deleteSession(<f-args>)
 function! s:deleteSession(file)
@@ -71,7 +71,7 @@ endfunction
 
 fzf.vim版はこちらです。
 
-```vimscript
+```vim
 command! FdeleteSession call fzf#run({
 \  'source': split(glob(s:session_path . "/*"), "\n"),
 \  'sink':    function('s:deleteSession'),
@@ -82,7 +82,7 @@ command! FdeleteSession call fzf#run({
 ## キーマッピング
 こんな感じでマッピングしたら楽です。
 
-```vimscript
+```vim
 nnoremap <Leader>se :SaveSession 
 nnoremap <Leader>lse :FloadSession<CR>
 ```
