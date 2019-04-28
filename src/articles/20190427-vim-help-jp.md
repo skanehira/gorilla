@@ -1,9 +1,9 @@
 ---
-title: vimヘルプを日本語化
+title: Vimヘルプを日本語化
 date: 2019-04-27
 ---
 
-# vimヘルプを日本語化
+# Vimヘルプを日本語化
 
 こんにちわ。
 [ゴリラ.vim](https://gorillavim.connpass.com/)を運営しているゴリラです。
