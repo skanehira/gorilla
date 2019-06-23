@@ -11,6 +11,7 @@ date: 2019-06-18
 Vimでコーディング中に帰りの電車時間を知りたくなる時があるので、プラグイン作りました。
 このプラグインを入れればブラウザを開くことなく乗り換えルートを検索できます。便利です。
 
+<a href="https://github.com/skanehira/train.vim"><img src="https://github-link-card.s3.ap-northeast-1.amazonaws.com/skanehira/train.vim.png"></a>
 ## 何ができる？
 Yahoo乗り換え案内
 ![](https://i.imgur.com/RToqGvd.gif)
