@@ -9,6 +9,8 @@ date: 2019-06-23
 
 Vimでコーディング中に天気を知りたくなるときがあるので、天気情報プラグインを作りました。
 
+<a href="https://github.com/skanehira/weather.vim"><img src="https://github-link-card.s3.ap-northeast-1.amazonaws.com/skanehira/weather.vim.png"></a>
+
 ## 何ができるの？
 地域の天気情報（今日、明日）を表示する。
 
