@@ -17,16 +17,16 @@ Vimについて詳しく知りたい方はぜひお勧めのヘルプを読ん�
 ぼくもまだ読んでいないのがたくさんあるので、じっくり読んでいきます。
 
 ## お勧めVimヘルプ
-| ヘルプ         | 概要                                   |
-|----------------|----------------------------------------|
-| help-summary   | ヘルプの引き方                         |
-| helphelp       | ヘルプのヘルプ                         |
-| index          | 各モードのすべてのコマンド一覧         |
-| quickref       | よく使うコマンドのクイックリファレンス |
-| ex-cmd-index   | VimのExコマンド一覧                    |
-| functions-list | 組み込み関数の機能別一覧               |
-| option-list    | オプション（cursolineなど）一覧        |
-| map-overview   | マップコマンドとモードの対応表         |
-| usr_41         | Vim scriptの基本                       |
-| eval           | Vim scriptの仕様相当の内容             |
+| ヘルプ        | 概要                                   |
+|---------------|----------------------------------------|
+| help-summary  | ヘルプの引き方                         |
+| helphelp      | ヘルプのヘルプ                         |
+| index         | 各モードのすべてのコマンド一覧         |
+| quickref      | よく使うコマンドのクイックリファレンス |
+| ex-cmd-index  | VimのExコマンド一覧                    |
+| function-list | 組み込み関数の機能別一覧               |
+| option-list   | オプション（cursolineなど）一覧        |
+| map-overview  | マップコマンドとモードの対応表         |
+| usr_41        | Vim scriptの基本                       |
+| eval          | Vim scriptの仕様相当の内容             |
 
