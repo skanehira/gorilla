@@ -108,6 +108,12 @@ lazygitと同様`:vert term ++close docui`でコンテナを操作しつつコ�
 こちらはターミナルを使わずにVimのインターフェイスのみで操作できるようになっています。
 興味ある方はぜひ使ってみてください。
 
+### スターウォーズ
+コーディング中にスターウォーズを見たくなるときがあります。
+そんなときは[go-starwars](https://github.com/skanehira/go-starwars)を導入して、`:term ++close go-starwars -s 20`を実行してコーディングしながら見ます。
+
+![vim-terminal-starwars.gif](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/66178/14038dad-0b31-603b-9731-97f2b90d202e.gif)
+
 ### tmuxの代わりに使う
 [tmux](https://github.com/tmux/tmux/wiki)を使うことで、画面を分割したり、ターミナルソフトを終了してもセッションを復帰することで状態を復元できます。
 Vimはセッションと言う機能があり、ターミナルと組み合わせることでtmuxと近いことができます。
