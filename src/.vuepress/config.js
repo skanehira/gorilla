@@ -4,8 +4,8 @@ module.exports = {
     ['meta', { name: 'og:type', content: 'website' }],
     ['meta', { name: 'og:title', content: 'ゴリラの技術ブログ' }],
     ['meta', { name: 'og:description', content: 'ゴリラの技術ブログ' }],
-    ['meta', { name: 'og:image', content: '/og.png' }],
-    ['link', { rel: 'icon', href: '/logo.jpeg' }],
+    ['meta', { name: 'og:image', content: '/log.png' }],
+    ['link', { rel: 'icon', href: '/logo.png' }],
     ['link', {
       rel: 'stylesheet',
       href: 'https://use.fontawesome.com/releases/v5.6.1/css/all.css',
