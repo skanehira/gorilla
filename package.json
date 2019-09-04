@@ -9,10 +9,10 @@
   "devDependencies": {
     "markdown-it-abbr": "^1.0.4",
     "markdown-it-fontawesome": "^0.3.0",
-    "markdown-it-footnote": "^3.0.1",
+    "markdown-it-footnote": "^3.0.2",
     "markdown-it-mark": "^2.0.0",
     "markdown-it-task-lists": "^2.1.1",
-    "vuepress": "^0.14.11"
+    "vuepress": "^1.0.3"
   },
   "scripts": {
     "dev": "vuepress dev src",
