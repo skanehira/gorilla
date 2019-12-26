@@ -1,0 +1,8 @@
+{
+    "rules": {
+        "preset-ja-technical-writing": true,
+        "ja-no-redundant-expression": true,
+        "no-double-negative-ja": true,
+        "no-mix-dearu-desumasu": true
+    }
+}
